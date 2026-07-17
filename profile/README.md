@@ -1,5 +1,7 @@
 # SaaS Maker
 
+**Fleet platform organization** — shared infrastructure, developer tooling, and operating systems used across the product fleet.
+
 The shared product platform and operating layer behind Sarthak's software fleet.
 
 - **[SaaS Maker](https://github.com/sass-maker/saas-maker)** — reusable SaaS services, SDKs, APIs, and dashboard · [sassmaker.com](https://sassmaker.com)
