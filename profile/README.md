@@ -1,16 +1,72 @@
-# SaaS Maker
+# sass-maker
 
-**Core product organization** — SaaS Maker is the product; the other repositories are infrastructure and operator tools that support it.
+**The Foundry — a personal product fleet operating layer.**
 
-The shared product platform and operating layer behind Sarthak's software fleet. It operates the wider fleet internally without acting as the public parent brand for every product.
+sass-maker is the GitHub organization behind the Foundry: the open-source
+operating layer that binds a fleet of 20+ shipped products together. One API,
+one CLI, one cockpit, one set of widgets — running on Cloudflare's $5 tier.
 
-- **[SaaS Maker](https://github.com/sass-maker/saas-maker)** — reusable SaaS services, SDKs, APIs, and dashboard · [sassmaker.com](https://sassmaker.com)
-- **[Free AI](https://github.com/sass-maker/free-ai)** — OpenAI-compatible gateway across free model providers
-- **[Knowledge Base](https://github.com/sass-maker/knowledge-base)** — cited search and RAG across pluggable private corpora
-- **[Reel Pipeline](https://github.com/sass-maker/reel-pipeline)** — text and project context to short-form video drafts
-- **[psi-swarm](https://github.com/sass-maker/psi-swarm)** — repeatable Lighthouse percentile audits instead of one noisy run
-- **[Mobile Dev Cockpit](https://github.com/sass-maker/mobile-dev-cockpit)** — iPhone cockpit for supervising coding agents and guarded delivery
+## What we ship
 
-Private fleet operations also live here; public production repositories stay independently usable.
+- **[Foundry (SaaS Maker)](https://sassmaker.com)** — the fleet hub and showcase. Per-product pages, build log, and the fleet map.
+- **[SaaS Maker Docs](https://docs.sassmaker.com)** — drop-in backend services for SaaS apps. API docs for Foundry (feedback, waitlist, testimonials, tasks, analytics, and more).
+- **[Cockpit](https://app.sassmaker.com)** — operator dashboard for the fleet. Project registry, feedback, tasks, analytics, changelog.
+- **[AI Gateway](https://ai-gateway.sassmaker.com)** — OpenAI-compatible LLM gateway fronting free-tier models across 30+ providers.
+- **[Email Manager](https://mail.sassmaker.com)** — Gmail workspace with local semantic search.
+- **[psi-swarm](https://performance.sassmaker.com)** — distributional Lighthouse / PageSpeed audits with grounded performance analysis across the fleet.
+- **[DRank](https://domains.sassmaker.com)** — Ahrefs Domain Rating tracker for fleet domain marketing.
 
-Built by [Sarthak Agrawal](https://github.com/sarthakagrawal927).
+## The fleet
+
+## Spotlight products
+
+The personal landing page leads with four products — CodeVetter, Post-train
+LLM, HeyPace, and HiSignal — and links here as the broader directory and
+operating layer for the full fleet.
+
+sass-maker is the operating layer. The products it serves span multiple GitHub
+orgs — each with its own brand and domain:
+
+| Org | Products |
+|---|---|
+| [Codevetter](https://github.com/Codevetter) | CodeVetter, Starboard |
+| [HeyPace](https://github.com/HeyPace) | Pace |
+| [PostTrainLLM](https://github.com/PostTrainLLM) | PostTrainLLM |
+| [High-Signal-App](https://github.com/High-Signal-App) | High Signal, EverythingRated, researchPapers, DRank |
+| [Significant-Hobbies](https://github.com/Significant-Hobbies) | Significant Hobbies, Materia, LoopTV, MAL Explorer, Chess Coach, Reader, SWE Interview Prep |
+| [sass-maker](https://github.com/sass-maker) | Foundry, AI Gateway, Email Manager, psi-swarm |
+
+## Product domains
+
+| Product | URL | What it does |
+|---|---|---|
+| Foundry hub | https://sassmaker.com | Fleet showcase and build log |
+| Docs | https://docs.sassmaker.com | API docs for Foundry backend services |
+| Cockpit | https://app.sassmaker.com | Operator dashboard (auth) |
+| AI Gateway | https://ai-gateway.sassmaker.com | OpenAI-compatible free-model gateway |
+| Email Manager | https://mail.sassmaker.com | Gmail workspace with local semantic search |
+| psi-swarm | https://performance.sassmaker.com | Distributional Lighthouse performance audits |
+| DRank | https://domains.sassmaker.com | Ahrefs Domain Rating tracker |
+
+## Build log
+
+The fleet story is told as dated entries from real git history — no invented
+narrative. Every entry is anchored to a real commit (SHA, date, message) from
+the repository's git log.
+
+- **Fleet build log**: https://sassmaker.com/build-log
+- **Hub**: https://sassmaker.com
+
+## Agent surfaces
+
+The Foundry hub and every product expose machine-readable entrypoints:
+
+- Hub: https://sassmaker.com/llms.txt · https://sassmaker.com/api/ai · https://sassmaker.com/index.md
+- Docs: https://docs.sassmaker.com/llms.txt · https://docs.sassmaker.com/api/ai · https://docs.sassmaker.com/index.md
+- AI Gateway: https://ai-gateway.sassmaker.com/llms.txt · https://ai-gateway.sassmaker.com/api/ai
+
+## Source
+
+- **GitHub**: https://github.com/sass-maker/saas-maker
+- **License**: MIT
+- **Operator**: Sarthak Agrawal
