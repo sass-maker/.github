@@ -6,6 +6,9 @@
 product does, where it lives, what changed, and what comes next. Products keep
 their own brands, domains, repositories, and release boundaries.
 
+Created and maintained by [Sarthak Agrawal](https://sarthakagrawal.dev) as
+the public directory for his independent Foundry product fleet.
+
 ## Start here
 
 - [CodeVetter](https://codevetter.com) — local-first desktop review for
@@ -23,17 +26,16 @@ SaaS Maker publishes one focused open-source package:
 backend-free React feedback widget. The integrating application owns submission
 and storage.
 
-## Source of truth
+## Maintenance and attribution
 
-SaaS Maker is maintained inside
-[`sass-maker/fleet-workspace`](https://github.com/sass-maker/fleet-workspace):
+The current directory and package are maintained in Sarthak's private Foundry
+workspace. The former standalone repositories under his personal account are
+public historical records only, not current setup dependencies or deploy
+sources.
 
-- Public directory: `fleet-ops/apps/public-directory/`
-- Feedback package: `fleet-ops/packages/feedback/`
-
-The former standalone repositories under Sarthak's personal account are
-historical records only. They are not setup dependencies and should not be
-cloned for Fleet development.
+For current product information, use [sassmaker.com](https://sassmaker.com).
+For the feedback package, use its
+[npm page](https://www.npmjs.com/package/@saas-maker/feedback).
 
 ## Agent surfaces
 
